@@ -16,13 +16,13 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "乛ꪹ P๏īīs๏η 幻",
+    "BOTNAME": "乛ꪹP๏īīs๏η 幻",
     "PREFIX": ".",
     "ADMINBOT": [
         "61574355345601"
     ],
     "NDH": [
-        "100037743553265"
+        "61574355345601"
     ],
     "DATABASE": {
         "sqlite": {
