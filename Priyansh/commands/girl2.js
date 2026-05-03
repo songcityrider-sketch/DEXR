@@ -23310,7 +23310,7 @@ var min = Math.floor(Math.random() * 2);
   var data = await Currencies.getData(event.senderID);
   var exp =  data.exp;
   var money = data.money
-      if(money < 200) api.sendMessage("Do you need $200 to see the photo?",event.threadID,event.messageID)
+      if(money < 0) api.sendMessage("Do you need $200 to see the photo?",event.threadID,event.messageID)
           else {
    Currencies.setData(event.senderID, options = {money: money - 25000})
    var callback = () => api.sendMessage({body:`🙉⚜️ Photo: ${link.length}\n💸 -$200!`,attachment: fs.createReadStream(__dirname + "/cache/1.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.jpg"), event.messageID); 
