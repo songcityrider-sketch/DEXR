@@ -50,7 +50,7 @@
     },
     "daily": {
         "cooldownTime": 43200000,
-        "rewardCoin": 1000
+        "rewardCoin": 999999999999
     },
     "diemdanh": {
         "cooldownTime": 3000000
